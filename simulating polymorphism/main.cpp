@@ -213,35 +213,3 @@ int main()
 
     return 0;
 }
-
-/*int main()
-{
-    Circle circle;
-    CircleInitialize(&circle, 10); // circle with radius 10
-
-    Rectangle rectangle;
-    RectangleInitialize(&rectangle, 3, 5); // rectangle with width 3 and height 5
-
-    Ellipse ellipse;
-    EllipseInitialize(&ellipse, 10, 12); // ellipse with radius 10, 12
-
-    Shape* shapes[3];
-    shapes[0]=(Shape*)&circle ;
-    shapes[1]=(Shape*)&rectangle ;
-    shapes[2]=(Shape*)&ellipse ;
-
-    double total_area=0;
-
-    int i;
-    for(i=0;i<3;i++)
-    {
-        double d=GetArea(shapes[i]);
-        total_area+=d;
-        PrintInfo(shapes[i]); // prints (cout) the radius if circle, width and height if rectangle, ... etc
-    }
-
-    cout<<total_area<<endl; // check if the value is correct
-
-    return 0;
-}
-*/
